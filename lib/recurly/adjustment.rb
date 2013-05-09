@@ -19,6 +19,7 @@ module Recurly
       state
       description
       accounting_code
+      product_code
       origin
       unit_amount_in_cents
       quantity
@@ -30,9 +31,6 @@ module Recurly
       start_date
       end_date
       created_at
-      product_code
-      line_item_product_code
-
     )
     alias to_param uuid
 
