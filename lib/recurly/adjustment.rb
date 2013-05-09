@@ -30,6 +30,7 @@ module Recurly
       start_date
       end_date
       created_at
+      line_item_product_code
     )
     alias to_param uuid
 
